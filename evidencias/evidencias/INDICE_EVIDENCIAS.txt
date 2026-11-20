@@ -1,0 +1,56 @@
+EVIDENCIAS EC3 - TECNOGESTION S.A.C.
+Capturas originales remitidas en la conversacion, renombradas para GitHub.
+
+NOTA: revisa las imagenes antes de publicar el repositorio; no se incluyen contrasenas deliberadamente.
+Estas capturas prueban el entorno de laboratorio, no una implantacion en produccion.
+
+01-instalacion/
+  01_creacion_maquina_virtual.png
+  02_configuracion_hardware.png
+  03_inicio_instalador.png
+  04_instalacion_ubuntu.png
+  05_configuracion_red_inicial.png
+  06_particiones_LVM.png
+  07_configuracion_OpenSSH.png
+  08_inicio_sesion_ubuntu.png
+  09_actualizacion_sistema.png
+  10_verificacion_hostnamectl.png
+
+02-usuarios-permisos/
+  11_grupos_empresariales.png
+  12_usuario_administracion.png
+  13_usuarios_y_grupos.png
+  14_propietarios_permisos.png
+  15_prueba_P1_accesos.png
+
+03-samba/
+  16_instalacion_samba.png
+  17_servicio_smbd_activo.png
+  18_configuracion_recurso.png
+  19_usuario_samba.png
+  20_red_NAT_host_only.png
+  21_carpeta_windows.png
+  22_archivo_creado_en_windows.png
+  23_archivo_verificado_ubuntu.png
+
+04-seguridad/
+  24_reglas_firewall.png
+  25_firewall_activo.png
+  26_ssh_windows_ubuntu.png
+
+05-rendimiento/
+  27_metricas_iniciales.png
+  28_cpu_reposo.png
+  29_cpu_bajo_carga.png
+  30_stress_ng_60s.png
+
+06-respaldos/
+  31_copia_rsync.png
+  32_prueba_P4_restauracion.png
+  33_registro_cron_automatico.png
+  34_cron_final_diario.png
+
+07-recuperacion/
+  35_servicio_samba_detenido_windows.png
+  36_samba_recuperado_logs.png
+  37_samba_recuperado_windows.png
